@@ -5,24 +5,24 @@
  Vite + React + TypeScript kullanilarak olusturulmustur.
 
   ## Gelistirici
- **Ad Soyad:** [Kumru Çelik]
- **Ogrenci No:** [220541126]
+ **Ad Soyad:** Kumru Çelik
+ **Ogrenci No:** 220541126
 
  ## Kullanilan Teknolojiler
- React 18
- TypeScript
- Vite
+ -React 18
+ -TypeScript
+ -Vite
 
  ## Kurulum
  ```bash
- npm install
+ -npm install
  ```
 
  ## Calistirma
  ```bash
- npm run dev
+ -npm run dev
  ```
 
  ## Ekran Goruntusu
  Tarayicida http://localhost:5173 adresini ac.
- (ekran goruntusunu buraya ekle)
+ ![Uygulama Ekran Goruntusu](11.png)
