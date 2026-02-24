@@ -1,0 +1,45 @@
+// src/App.tsx
+import React from "react";
+
+export default function App() {
+  return (
+    <>
+      <header>
+        <h1>Ahmet Yilmaz Web Sayfasi</h1>
+        <nav>
+          <ul>
+            <li><a href="#hakkimda">Hakkimda</a></li>
+            <li><a href="#projeler">Projeler</a></li>
+            <li><a href="#iletisim">Iletisim</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="hakkimda">
+          <h2>Hakkimda</h2>
+          <figure>
+            <img src="/src/assets/profil.jpg" alt="Ahmet Yilmaz'in vesikalik fotografi" />
+            <figcaption>Ahmet Yilmaz</figcaption>
+          </figure>
+        </section>
+
+        <section id="projeler">
+          <h2>Projelerim</h2>
+          <figure>
+            <img src="/src/assets/proje1.png" alt="SecurityScan uygulamasının giriş ekranı" />
+            <figcaption>SecurityScan Giriş Ekranı</figcaption>
+          </figure>
+        </section>
+
+        <section id="iletisim">
+          <h2>Iletisim</h2>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Ahmet Yilmaz. Tum haklari saklidir.</p>
+      </footer>
+    </>
+  );
+}
