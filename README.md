@@ -26,3 +26,4 @@
  ## Ekran Goruntusu
  Tarayicida http://localhost:5173 adresini ac.
  ![Uygulama Ekran Goruntusu](12.png)
+ !![Uygulama Ekran Goruntusu](13.png)
