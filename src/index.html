@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>Ahmet Yilmaz Web Sayfasi</h1>
+        <h1 class="site-title">Kumru Çelik</h1>
         <nav>
           <ul>
             <li><a href="#hakkimda">Hakkimda</a></li>
@@ -16,13 +16,19 @@ export default function App() {
       </header>
 
       <main>
-        <section id="hakkimda">
-          <h2>Hakkimda</h2>
-          <figure>
-            <img src="/src/assets/profil.jpg" alt="Ahmet Yilmaz'in vesikalik fotografi" />
-            <figcaption>Ahmet Yilmaz</figcaption>
-          </figure>
-        </section>
+        <section id="about">
+  <h2>Hakkımda</h2>
+  <p>Frontend geliştirme ile ilgileniyorum...</p>
+
+  <ul class="skill-tags" role="list" aria-label="Beceri etiketleri">
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>TypeScript</li>
+    <li>Git</li>
+  </ul>
+</section>
 
         <section id="projeler">
           <h2>Projelerim</h2>

@@ -21,45 +21,51 @@ function App() {
             <main id="main-content">
                 <section id="hakkimda">
                     <h2>Hakkimda</h2>
-                    <figure>
-                        <img src="profil.jpg" alt="Kumru Çelik'in vesikalik fotografi" />
-                        <figcaption>Kumru Çelik</figcaption>
-                    </figure>
-                    <p>
-                        Merhaba, ben Kumru Çelik. Web Tasarimi ve Programlama dersi kapsaminda
-                        bu portföy sayfasini hazirliyorum. Modern web teknolojilerine ilgi duyuyorum
-                        ve kullanici dostu, erisilebilir web siteleri gelistirmeyi hedefliyorum.
-                    </p>
-                    <h3>Kullandigim Teknolojiler</h3>
-                    <ul>
-                        <li>HTML5 & Semantik Etiketler</li>
-                        <li>CSS3 (Flexbox, Grid)</li>
-                        <li>JavaScript & TypeScript</li>
-                        <li>React & Vite</li>
-                    </ul>
+                    <div className="about-content">
+                        <figure>
+                            <img src="profil.jpg" alt="Kumru Çelik'in vesikalik fotografi" />
+                            <figcaption>Kumru Çelik</figcaption>
+                        </figure>
+                        <div>
+                            <p>
+                                Merhaba, ben Kumru Çelik. Web Tasarimi ve Programlama dersi kapsaminda
+                                bu portföy sayfasini hazirliyorum. Modern web teknolojilerine ilgi duyuyorum
+                                ve kullanici dostu, erisilebilir web siteleri gelistirmeyi hedefliyorum.
+                            </p>
+                            <h3>Kullandigim Teknolojiler</h3>
+                            <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+                                <li>HTML5 & Semantik Etiketler</li>
+                                <li>CSS3 (Flexbox, Grid)</li>
+                                <li>JavaScript & TypeScript</li>
+                                <li>React & Vite</li>
+                            </ul>
+                        </div>
+                    </div>
                 </section>
 
                 <section id="projeler">
                     <h2>Projelerim</h2>
-                    <article>
-                        <h3>Proje 1: E-Ticaret Arayüzü</h3>
-                        <p>React kullanarak gelistirilen, duyarlı bir e-ticaret vitrin tasarimi.</p>
-                        <ul>
-                            <li>React</li>
-                            <li>CSS Modules</li>
-                        </ul>
-                        <img src="proje1.jpg" alt="E-Ticaret projesi ana sayfa ekran goruntusu" />
-                    </article>
+                    <div className="project-grid">
+                        <article className="project-card">
+                            <img src="proje1.jpg" alt="E-Ticaret projesi ana sayfa ekran goruntusu" />
+                            <h3>Proje 1: E-Ticaret Arayüzü</h3>
+                            <p>React kullanarak gelistirilen, duyarlı bir e-ticaret vitrin tasarimi.</p>
+                            <ul className="skill-tags">
+                                <li>React</li>
+                                <li>CSS Modules</li>
+                            </ul>
+                        </article>
 
-                    <article>
-                        <h3>Proje 2: Web Lab Hello</h3>
-                        <p>Vite ve React ile olusturulan ilk laboratuvar calismasi.</p>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                        <img src="proje2.jpg" alt="Web Lab Hello projesi calisir durumu" />
-                    </article>
+                        <article className="project-card">
+                            <img src="proje2.jpg" alt="Web Lab Hello projesi calisir durumu" />
+                            <h3>Proje 2: Web Lab Hello</h3>
+                            <p>Vite ve React ile olusturulan ilk laboratuvar calismasi.</p>
+                            <ul className="skill-tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </article>
+                    </div>
                 </section>
 
                 <section id="iletisim">
